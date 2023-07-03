@@ -1,23 +1,24 @@
-import logo from './logo.svg';
-import './App.css';
+import Products from "./API/Products";
+import "./App.css";
+import RecipeReviewCard from "./CRUD/Card";
+import PostRequest from "./CRUD/PostRequest";
+import PutRequest from "./CRUD/PutRequest";
+import DaynamicCrud from "./CrudOperation/DaynamicCrud";
+// import NavScrollExample from './Components/Baigan';
+// import Navigation from './Components/Navbar/Navigation';
+// import PostMethod from './CrudOperation/PostMethod';
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      {/* <Navigation/> */}
+      {/* <NavScrollExample/> */}
+      {/* <PostMethod/> */}
+      {/* <DaynamicCrud/> */}
+      {/* <Products/> */}
+      {/* <PostRequest /> */}
+      <PutRequest />
+      {/* <RecipeReviewCard/> */}
     </div>
   );
 }

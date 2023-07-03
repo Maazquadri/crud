@@ -1,0 +1,20 @@
+.head{
+    background-color: 	teal;
+    height: 300px;
+}
+.name {
+    display: inline;
+float: left;
+margin-top: 9%;
+margin-left: 5%;
+color: wheat;
+}
+.C{
+    float: left;
+margin-top: 10%;
+margin-left: 5%;
+color: wheat;
+} 
+img{
+    float: right;
+}
